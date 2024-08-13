@@ -1,0 +1,3 @@
+// Retrieves all documents in the 'school' collection where the name is "Holberton school".
+db.school.find({name: "Holberton school"}).forEach(printjson);
+
